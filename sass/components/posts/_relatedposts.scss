@@ -26,23 +26,34 @@
 
 .relatedpost {
     width: 100%;
-    border: 1px solid rgb(243, 243, 243);
+    // border: 1px solid rgb(243, 243, 243);
     padding: 10px;
     &__image {
         width: 100%;
-        height: auto;
-        object-fit: cover;
+        // height: auto;
+        height: 15rem;
+        object-fit: fill;
         object-position: center;
+        border-radius: 10px;
     }
     &__title {
         margin-top: 2rem;
         font-size: 1.5rem;
         font-weight: 600;
         margin-bottom: 0.5rem;
+        a {
+            font-family: sans-serif;
+            color: rgb(41, 40, 40);
+            &:hover {
+                cursor: pointer;
+                color: rgb(160, 75, 25);
+            }
+        }
     }
     &__description {
         text-align: justify;
         font-size: 18px;
         color: rgb(39, 35, 35);
+        font-family: sans-serif;
     }
 }
