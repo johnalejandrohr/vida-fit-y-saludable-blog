@@ -1,3 +1,9 @@
+$primary: #cad8f6;
+$secondary: #ede6e6;
+$font-family-primary: 'Times New Roman', Times, serif;
+$font-family-primary: sans-serif;
+$font-family-secondary: sans-serif;
+
 @import './base';
 @import './layouts/header';
 @import './layouts/services';
@@ -6,6 +12,7 @@
 @import './components/slider';
 @import './components/service';
 @import './components/uploadFiles';
+@import './components/date';
 
 @import './components/posts/post';
 @import './components/posts/relatedposts';

@@ -4,8 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $font-family-primary;
     scroll-behavior: smooth;
     // border: 1px solid red;
 }
@@ -24,7 +23,7 @@ p {
 }
 
 a {
-    text-decoration: none;
+    // text-decoration: none;
     color: rgb(74, 87, 205);
 }
 .home {
@@ -54,9 +53,14 @@ button {
     text-align: center;
 }
 
-.mt-1 {
-    margin-top: 1rem;
-}
-.mt-5 {
-    margin-top: 5rem;
+
+$base-color: #036;
+
+@for $i from 1 through 15 {
+    .mt-#{$i} {
+        margin-top: #{$i}rem;
+    }
+    .mb-#{$i} {
+        margin-bottom: #{$i}rem;
+    }
 }

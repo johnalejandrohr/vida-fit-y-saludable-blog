@@ -1,0 +1,11 @@
+.date {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: rgb(175, 168, 162);
+    p {
+        font-size: .9rem;
+        font-family: sans-serif;
+    }
+}

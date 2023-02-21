@@ -1,7 +1,7 @@
 /* header  */
 .header {
     height: 5rem;
-    background-color: #ede6e6;
+    background-color: $secondary;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
@@ -27,8 +27,10 @@
                 color: #bc5b00;
                 width: 100%;
                 text-align: center;
+                text-decoration: none;
                 &:hover {
-                    border-bottom: 1px solid beige;
+                    // background-color: rebeccapurple;
+                    // border-bottom: 1px solid beige;
                 }
             }
         }

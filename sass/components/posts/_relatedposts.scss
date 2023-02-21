@@ -32,7 +32,7 @@
         width: 100%;
         // height: auto;
         height: 15rem;
-        object-fit: fill;
+        object-fit: cover;
         object-position: center;
         border-radius: 10px;
     }
@@ -42,8 +42,9 @@
         font-weight: 600;
         margin-bottom: 0.5rem;
         a {
-            font-family: sans-serif;
+            font-family: $font-family-secondary;
             color: rgb(41, 40, 40);
+            text-decoration: none;
             &:hover {
                 cursor: pointer;
                 color: rgb(160, 75, 25);
@@ -54,6 +55,6 @@
         text-align: justify;
         font-size: 18px;
         color: rgb(39, 35, 35);
-        font-family: sans-serif;
+        font-family: $font-family-secondary;
     }
 }
