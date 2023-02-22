@@ -1,0 +1,30 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+// base
+@import './base/variables';
+@import './base/normalize';
+@import './base/reset';
+@import './base/typography';
+@import './base/global';
+
+// pages
+@import './pages/home';
+@import './pages/post';
+
+// layouts
+@import './layouts/home';
+@import './layouts/post';
+
+// components
+@import './components/header';
+@import './components/footer';
+@import './components/sidebar';
+@import './components/date';
+@import './components/slider';
+@import './components/uploadFiles';
+@import './components/suscription';
+
+// components post
+@import './components/post/post';
+@import './components/post/relatedposts';
+@import './components/post/relatedpostsverticals';

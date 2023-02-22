@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family-primary;
+    scroll-behavior: smooth;
+    // border: 1px solid red;
+}
+body {
+    background-color: #fff;
+}
+p {
+    word-spacing: 3px;
+    font-size: 18px;
+    line-height: 200%;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    // background-color: beige;
+}
+
+a {
+    // text-decoration: none;
+    color: rgb(74, 87, 205);
+}
+
+@for $i from 1 through 15 {
+    .mt-#{$i} {
+        margin-top: #{$i}rem;
+    }
+    .mb-#{$i} {
+        margin-bottom: #{$i}rem;
+    }
+    .pt-#{$i} {
+        padding-top: #{$i}rem;
+    }
+    .pb-#{$i} {
+        padding-bottom: #{$i}rem;
+    }
+}

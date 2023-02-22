@@ -1,0 +1,36 @@
+blog/
+|--- assets/
+|    |--- css/
+|    |    |--- main.css
+|    |    |--- main.css.map
+|    |--- js/
+|    |    |--- main.js
+|    |    |--- main.js.map
+|    |--- images/
+|         |--- logo.png
+|         |--- header-bg.jpg
+|
+|--- sass/
+|    |--- base/
+|    |    |--- _variables.scss
+|    |    |--- _normalize.scss
+|    |    |--- _reset.scss
+|    |    |--- _typography.scss
+|    |--- components/
+|    |    |--- _header.scss
+|    |    |--- _footer.scss
+|    |    |--- _post-card.scss
+|    |    |--- _sidebar.scss
+|    |--- layouts/
+|    |    |--- _home.scss
+|    |    |--- _archive.scss
+|    |    |--- _single.scss
+|    |--- pages/
+|    |    |--- _home.scss
+|    |    |--- _archive.scss
+|    |    |--- _single.scss
+|    |--- style.scss
+|
+|--- index.html
+|--- archive.html
+|--- single.html
