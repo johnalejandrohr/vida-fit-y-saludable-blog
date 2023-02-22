@@ -26,6 +26,10 @@ a {
     color: rgb(74, 87, 205);
 }
 
+ul {
+    // list-style: none;
+}
+
 @for $i from 1 through 15 {
     .mt-#{$i} {
         margin-top: #{$i}rem;
