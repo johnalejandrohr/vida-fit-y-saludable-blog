@@ -49,7 +49,6 @@ hr {
     .mr-#{$i} {
         margin-right: #{$i}rem;
     }
-
     .pt-#{$i} {
         padding-top: #{$i}rem;
     }
@@ -61,5 +60,11 @@ hr {
     }
     .pr-#{$i} {
         padding-right: #{$i}rem;
+    }
+    .m-#{$i} {
+        margin: #{$i}rem;
+    }
+    .p-#{$i} {
+        padding: #{$i}rem;
     }
 }
