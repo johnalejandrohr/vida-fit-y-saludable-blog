@@ -1,0 +1,17 @@
+.shared {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        p {
+            color: rgb(114, 115, 116);
+        }
+    }
+}
