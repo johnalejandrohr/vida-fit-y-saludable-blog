@@ -1,12 +1,20 @@
 .footer {
     margin-top: 1rem;
     height: 5rem;
-    background-color: #27221d;
+    background-color: #DDDDDD;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .footer__text {
-    color: rgb(233, 218, 243);
+    color: rgb(37, 35, 37);
+    font-size: 12px;
+    a {
+        color: rgb(36, 35, 37);
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
