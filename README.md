@@ -1,44 +1,34 @@
+# Project Name
 
-# Template blog
+Template Healthy Life Blog
 
-## Structure
+# Description
 
-blog/
-|--- assets/
-|    |--- css/
-|    |    |--- main.css
-|    |    |--- main.css.map
-|    |--- js/
-|    |    |--- main.js
-|    |    |--- main.js.map
-|    |--- images/
-|         |--- logo.png
-|         |--- header-bg.jpg
-|
-|--- sass/
-|    |--- base/
-|    |    |--- _variables.scss
-|    |    |--- _normalize.scss
-|    |    |--- _reset.scss
-|    |    |--- _typography.scss
-|    |--- components/
-|    |    |--- _header.scss
-|    |    |--- _footer.scss
-|    |    |--- _post-card.scss
-|    |    |--- _sidebar.scss
-|    |--- layouts/
-|    |    |--- _home.scss
-|    |    |--- _archive.scss
-|    |    |--- _single.scss
-|    |--- pages/
-|    |    |--- _home.scss
-|    |    |--- _archive.scss
-|    |    |--- _single.scss
-|    |--- style.scss
-|
-|--- index.html
-|--- archive.html
-|--- single.html
+This is a blog that aims to offer useful and practical information for those who seek to lead a healthy lifestyle. Here, articles about nutrition, exercise, emotional well-being, and more are published.
+
+## Technologies Used
+
+This project uses the following technologies:
+
+- HTML5
+- CSS3
+- JavaScript for building the website.
+
+## Features
+
+- Publishing of healthy lifestyle articles.
+- Comments and questions section for the community.
+- Responsive design to adapt to different screen sizes.
+
+## Installation and Usage
+
+To run the project, simply clone the repository on your local machine and open the index.html file in your web browser. To customize the blog content, edit the HTML and CSS files in the src directory.
+
+## Author
+John A. Hernandez
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for more details.
 
 ## Screenshops
 
