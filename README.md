@@ -15,10 +15,16 @@ This project uses the following technologies:
 - JavaScript for building the website.
 
 ## Features
-
-- Publishing of healthy lifestyle articles.
-- Comments and questions section for the community.
-- Responsive design to adapt to different screen sizes.
+- Home page that displays all posts or articles in reverse chronological order (from most recent to oldest).
+- Individual post page that displays the full content of a specific post.
+- "Recent posts" section on the home page that displays titles and dates of the latest published posts.
+- "Most viewed posts" section on the home page that displays titles and views of the most popular posts on the site.
+- Responsive design to ensure the site is easy to navigate and readable on all devices.
+- Content management system (CMS) that allows users to easily and efficiently create, edit, and delete posts and categories.
+- Integration with social media to allow users to share posts on their profiles and increase site visibility.
+- Commenting system to allow users to comment and discuss on published posts.
+- Search and filtering options to help users find the posts that interest them the most.
+- Implementation of good web security practices to protect user data and prevent potential cyber attacks.
 
 ## Installation and Usage
 
